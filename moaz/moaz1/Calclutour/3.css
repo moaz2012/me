@@ -1,0 +1,50 @@
+#mainDiv {
+    width: 80%;
+    max-width: 500px;
+    background-color: #eee;
+    border: 10px double #484894;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#resultDiv {
+    background-color:aqua;
+    padding: 10px 20px;
+    font-size: 30px;
+    text-align: right;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.line {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 15%;
+    background-image: linear-gradient(#a5a5f6, #484894);
+    background-color: aqua;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-image: linear-gradient(#484894, #484894);
+}
+
+.btn:active {
+    background-image: linear-gradient(#1c1c3b, #1c1c3b);
+}
+
+#clearBtn {
+    width: 40%;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="3.css">
+    <script src="3.js" defer></script>
+</head>
+<body>
+    <div id="mainDiv">
+        <div id="resultDiv">0</div>
+        <div class="line">
+            <div class="btn" id="clearBtn" onclick="clearScreen()">C</div>
+            <div class="btn" onclick="deleteNumber()">DEL</div>
+            <div class="btn" onclick="addNumber('/')">/</div>
+        </div>
+        <div class="line">
+            <div class="btn" onclick="addNumber(1)">1</div>
+            <div class="btn" onclick="addNumber(2)">2</div>
+            <div class="btn" onclick="addNumber(3)">3</div>
+            <div class="btn" onclick="addNumber('*')">*</div>
+        </div>
+        <div class="line">
+            <div class="btn" onclick="addNumber(4)">4</div>
+            <div class="btn" onclick="addNumber(5)">5</div>
+            <div class="btn" onclick="addNumber(6)">6</div>
+            <div class="btn" onclick="addNumber('-')">-</div>
+        </div>
+        <div class="line">
+            <div class="btn" onclick="addNumber(7)">7</div>
+            <div class="btn" onclick="addNumber(8)">8</div>
+            <div class="btn" onclick="addNumber(9)">9</div>
+            <div class="btn" onclick="addNumber('+')">+</div>
+        </div>
+        <div class="line">
+            <div class="btn" onclick="addNumber('00')">00</div>
+            <div class="btn" onclick="addNumber(0)">0</div>
+            <div class="btn" onclick="addNumber('.')">.</div>
+            <div class="btn" onclick="calculate()">=</div>
+        </div>
+    </div>
+</body>
+</html>

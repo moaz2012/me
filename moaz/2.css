@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    color: #333;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: blue;
+    height: 20vh;
+}

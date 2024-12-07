@@ -1,0 +1,35 @@
+#mainDiv {
+    background-color: blue;
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+}
+
+#mainDiv h1 {
+    text-align: center;
+    color: white;
+}
+
+#mainDiv img {
+    width: 100px;
+    height: 150px;
+    justify-content: center;
+    justify-items: auto;
+    
+
+}
+
+
+#mainDiv::before {
+    content: "";
+    width:0 ;
+    height:0 ;
+    right:7px ;
+    top: 200px;
+    border: solid 20px;
+    border-color: red transparent transparent transparent;
+    position: absolute;
+}
